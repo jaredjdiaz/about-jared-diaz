@@ -1,3 +1,27 @@
+
+/* The @Keyframes below tells it where to start and end the Rotation and since it's 0-359 it completes a circle */
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 h1{
     text-align: center;
+}
+
+.selfieImg {
+    animation: rotation 2s infinite linear;
+
+}
+
+.animalsImg {
+    width: 50%;
+}
+
+.animalText {
+    color: red;
 }
