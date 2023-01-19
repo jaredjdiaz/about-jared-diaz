@@ -22,6 +22,10 @@ h1{
     width: 50%;
 }
 
+.animalsImg:hover {
+    transform: scale(1.75);
+}
+
 .animalText {
     color: red;
 }
